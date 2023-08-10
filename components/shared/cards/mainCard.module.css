@@ -1,0 +1,56 @@
+.eye__button{
+    opacity: 0;
+    position:absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    top:40px;
+    right:10px;
+    box-shadow: 1px 1px 4px rgb(187, 184, 184);
+    transition: all 0.5s ease-in-out;
+    transition-delay: .1s;
+}
+.heart__button{
+    opacity: 0;
+    position:absolute;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    top:40px;
+    right:50px;
+    box-shadow: 1px 1px 4px rgb(187, 184, 184);
+    transition: all 0.5s ease-in-out;    
+}
+
+.cart__button{
+    opacity: 0;
+    position:absolute;
+    bottom:0px;
+    left:10px;
+    right: 10px;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.main__card:hover .cart__button{
+    bottom:20px;
+    opacity: 1;
+}
+
+.main__card:hover .eye__button{
+    top:15px;
+    opacity: 1;
+}
+
+.main__card:hover .heart__button{
+    top:15px;
+    opacity: 1;
+}
